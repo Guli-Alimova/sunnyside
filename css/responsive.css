@@ -4,6 +4,7 @@
 
 }
 
+
 .comment{
     width: 251px;
 }
@@ -101,22 +102,128 @@
         line-height: 0;
         font-size: 15px;
     }
-    .orange{
-        height: 316px;
+    .design{
+        font-size: 18px;
+        margin-top:10px;
+        
+    }
+    .artwork{
+        font-size: 11px;
     }
     .client{
-        padding-top:88px;
-        padding-bottom:88px;
+        padding-top:70px;
+        padding-bottom:70px;
     }
     .client .row{
        flex-wrap: wrap;
-       display: block;
+       display: inline-block;
+    }
+    .testimonial{
+        padding-bottom:40px;
     }
     .deliver{
         margin:0 auto;
     }
+    .profile{
+        margin-top:0;
+        margin-left:129px;
+    }
+    .comment{
+        width: 332px;
+        padding-bottom:17px;
+    }
+    .author{
+        width: 323px;
+    }
+    .proffession{
+        display: block;
+        width: 322px;
+        padding-bottom:50px;
+    }
+
+
 }
 @media(max-width:565px){
+    .transform .row{
+        flex-wrap: wrap;
+        margin:0 auto;
+        align-items: center;
+    }
+    .client .row{
+        flex-wrap: wrap;
+        display: inline-block;
+      
+    }
+    .products .row{
+        flex-wrap: wrap;
+        
+    }
+    .brand{
+        font-size: 32px;
+        line-height: 39px;
+        width: 400px;
+        padding-left:36px;
+    }
+    .marketing{
+        width: 386px;
+        padding-left:56px;
+        padding-top:24px;
+        padding-bottom:32px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .column2{
+        width: 100%;
+    }
+    .learn{
+        padding-left:163px;
+    }
+    .graphic{
+      
+        width: 305px;
+    }
+    .orange{
+        height: none;
+    }
+    .profile{
+        margin-top:0;
+        margin-left:103px;
+    }
+    .testimonial{
+        padding-bottom:64px;
+    }
+    .comment{
+        width: 278px;
+        line-height: 32px;
+        font-size: 18px;
+        padding-bottom:32px;
+    }
+    .author{
+        width: 269px;
+    }
+    .proffession{
+        display: block;
+        width: 273px;
+        padding-bottom:64px;
+    }
+    .design{
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .artwork{
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .column4{
+        width: 50%;
+
+
+    }
+    .footer-menu:nth-child(3){
+        margin-right:0;
+    }
+    
+
 
 }
 @media(max-width:480px){
