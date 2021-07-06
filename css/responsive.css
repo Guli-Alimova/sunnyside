@@ -1,0 +1,124 @@
+@media(max-width:1199px){
+.creatives{
+    margin-top:120px;
+
+}
+
+.comment{
+    width: 251px;
+}
+.client{
+    padding-top:123px;
+    padding-bottom:123px;
+}
+.design{
+    line-height: 16px;
+}
+.container{
+    width: 100%;
+}
+
+}
+@media(max-width:991px){
+    .creatives{
+        font-size: 46px;
+        margin-bottom:24px;
+    }
+    .brand{
+        font-size: 29px;
+        width: 373px;
+    }
+    .marketing{
+        font-size: 16px;
+        line-height: 27px;
+        width: 365px;
+    }
+    .graphic{
+        top:53%;
+        width: 222px;
+    }
+    .design{
+        font-size: 25px;
+        line-height: 6px;
+    }
+    .clients{
+        padding-top:103px;
+        padding-bottom:103px;
+    }
+    
+    .profile{
+        margin-bottom:37px;
+    }
+    .comment{
+        width: 199px;
+        line-height: 27px;
+        padding-bottom: 41px;
+        font-size: 16px;
+    }
+    .trans{
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+    .artwork{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .icon{
+        margin-top:62px;
+    }
+
+
+}
+@media(max-width:767px){
+    .main-toggle{
+        display: block;
+        border:none;
+        background:transparent;
+    }
+    .nav{
+        display: none;
+    }
+    .creatives{
+        margin-top:48px;
+        font-size: 44px;;
+    }
+    .brand{
+        line-height: 33px;
+        font-size: 22px;
+        padding-left: 36px;
+        width: 253px;
+        text-align: center;
+    }
+    .marketing{
+        width: 248px;
+        padding-left:27px;
+        padding-top:19px;
+        padding-bottom:19px;
+        text-align: center;
+    }
+    .learn{
+        padding-left:75px;
+        line-height: 0;
+        font-size: 15px;
+    }
+    .orange{
+        height: 316px;
+    }
+    .client{
+        padding-top:88px;
+        padding-bottom:88px;
+    }
+    .client .row{
+       flex-wrap: wrap;
+       display: block;
+    }
+    .deliver{
+        margin:0 auto;
+    }
+}
+@media(max-width:565px){
+
+}
+@media(max-width:480px){
+
+}
