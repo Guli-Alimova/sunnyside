@@ -227,5 +227,38 @@
 
 }
 @media(max-width:480px){
+.creatives{
+    font-size: 26px;
+    line-height: 56px;
+}
+.brand{
+    width: 313px;
+}
+.marketing{
+    width: 288px;
+}
+.learn{
+    padding-left:115px;
+}
+.artwork{
+    font-size: 15px;
+    line-height: 17px;
+}
+.design{
+    margin-bottom: auto;
+    font-size: 26px;
+}
+.profile{
+    margin-left:63px;
 
+}
+.comment{
+    width: 204px;
+}
+.author{
+    width: 184px;
+}
+.proffession{
+    width: 194px;
+}
 }
