@@ -241,6 +241,7 @@
     padding-left:115px;
 }
 .artwork{
+    width: 266px;
     font-size: 15px;
     line-height: 17px;
 }
@@ -260,5 +261,15 @@
 }
 .proffession{
     width: 194px;
+}
+.logotip{
+   
+    margin-left:-49px;
+}
+ .row .menu{
+    flex-wrap: wrap;
+}
+.testimonial{
+    font-size: 12px;
 }
 }
