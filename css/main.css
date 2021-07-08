@@ -58,12 +58,13 @@ body{
     color:black;
     background-color: white;
     text-decoration: none;
-   font-size: 15px;
-   font-weight: 700;
-   line-height: 25px;
-   letter-spacing: -0.1071428582072258px;
-   border-radius: 28px;
-   margin-left:47px;
+    font-family: 'Fraunces', serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.1071428582072258px;
+    border-radius: 28px;
+    margin-left:47px;
 
 }
 .nav-contact:hover{
@@ -378,7 +379,8 @@ body{
    
 }
 .footer-menu{
-    margin-right:57px;
+    margin-right:26px;
+    margin-left:26px;
     color: #458D7E;
     font-family: 'Barlow', sans-serif;
     font-size: 18px;

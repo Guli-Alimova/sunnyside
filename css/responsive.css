@@ -76,6 +76,9 @@
         border:none;
         background:transparent;
     }
+    .transform{
+        text-align: center;
+    }
     .nav{
         display: none;
     }
@@ -86,19 +89,17 @@
     .brand{
         line-height: 33px;
         font-size: 22px;
-        padding-left: 36px;
-        width: 253px;
+        width: 100%;
         text-align: center;
     }
     .marketing{
-        width: 248px;
-        padding-left:27px;
+        width: 100%;
         padding-top:19px;
         padding-bottom:19px;
         text-align: center;
     }
     .learn{
-        padding-left:75px;
+        
         line-height: 0;
         font-size: 15px;
     }
@@ -126,19 +127,22 @@
     }
     .profile{
         margin-top:0;
-        margin-left:129px;
+      
     }
     .comment{
-        width: 332px;
+        width: 100%;
         padding-bottom:17px;
     }
     .author{
-        width: 323px;
+        width: 100%;
     }
     .proffession{
         display: block;
-        width: 322px;
+        width: 100%;
         padding-bottom:50px;
+    }
+    .column3{
+        width: 100%;
     }
 
 
@@ -161,11 +165,11 @@
     .brand{
         font-size: 32px;
         line-height: 39px;
-        width: 400px;
+        width: 100%;
         padding-left:36px;
     }
     .marketing{
-        width: 386px;
+        width: 100%;
         padding-left:56px;
         padding-top:24px;
         padding-bottom:32px;
@@ -175,19 +179,20 @@
     .column2{
         width: 100%;
     }
-    .learn{
-        padding-left:163px;
+    .column3{
+        width: 100%;
     }
+   
     .graphic{
       
-        width: 305px;
+        width: 100%;
     }
     .orange{
         height: none;
     }
     .profile{
         margin-top:0;
-        margin-left:103px;
+       
     }
     .testimonial{
         padding-bottom:64px;
@@ -196,17 +201,17 @@
         order:-1;
     }
     .comment{
-        width: 278px;
+        width: 100%;
         line-height: 32px;
         font-size: 18px;
         padding-bottom:32px;
     }
     .author{
-        width: 269px;
+        width: 100%;
     }
     .proffession{
         display: block;
-        width: 273px;
+        width: 100%;
         padding-bottom:64px;
     }
     .design{
@@ -237,16 +242,16 @@
     letter-spacing: 4px;
 }
 .brand{
-    width: 318px;
+    width: 100%;
+    padding-left:0;
 }
 .marketing{
-    width: 291px;
+    width: 100%;
+    padding-left:0;
 }
-.learn{
-    padding-left:115px;
-}
+
 .artwork{
-    width: 216px;
+    width: 100%;
     font-size: 15px;
     line-height: 17px;
     margin:0 auto;
@@ -255,18 +260,15 @@
     margin-bottom: auto;
     font-size: 20px;
 }
-.profile{
-    margin-left:63px;
 
-}
 .comment{
-    width: 228px;
+    width: 100%;
 }
 .author{
-    width: 230px;
+    width: 100%;
 }
 .proffession{
-    width: 227px;
+    width: 100%;
 }
 .logotip{
    
@@ -279,15 +281,19 @@
     flex-wrap: wrap;
 }
 .testimonial{
-    font-size: 12px; 
+    font-size: 22px; 
     margin: 0 auto;
     letter-spacing: 5px;
 }
 .sun{
-    width: 140px;
+    width: 100%;
 }
 
 .footer-menu{
-    margin-right:30px;
+    margin-right:6px;
+}
+.main-footer{
+    padding:72px 137px 72px 137px;
+
 }
 }
